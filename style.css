@@ -1,0 +1,45 @@
+body {
+    background-color: beige;
+}
+#visor {
+    display: flex;
+    justify-content: right;
+    background-color: azure;
+    height: 50px;
+    align-items: center;
+    margin: 5px;
+}
+
+h2 {
+    position: relative;
+    padding-right: 15px;
+}
+
+.corpo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    width: 372px;
+    margin: 0 auto;
+}
+
+
+#botoes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.botao {
+    font-size: 20px;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    background-color: rgb(255, 226, 188);
+    border: none;
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.384));
+}
+
+.botao:hover {
+    background-color: rgb(233, 208, 176);
+}
